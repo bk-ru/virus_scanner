@@ -71,11 +71,8 @@ cd vcpkg
 ### Установка пакетов через vcpkg
 
 ```bash
-# Пример (в каталоге vcpkg)
 ./vcpkg install openssl
 ./vcpkg install gtest
-# опционно:
-./vcpkg install rapidcsv
 ```
 
 ### Использование vcpkg с CMake
@@ -86,10 +83,6 @@ cd vcpkg
 cmake -S . -B build -DCMAKE_TOOLCHAIN_FILE=/path/to/vcpkg/scripts/buildsystems/vcpkg.cmake
 cmake --build build --config Release
 ```
-
-> На Windows с Visual Studio можно добавить `-A x64` при генерации:
-> `cmake -S . -B build -A x64 -DCMAKE_TOOLCHAIN_FILE=...`
-
 ---
 
 ## Сборка проекта
