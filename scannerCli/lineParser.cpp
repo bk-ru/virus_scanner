@@ -1,13 +1,17 @@
-    #include "lineParser.h"
+#include "lineParser.h"
+#include <iostream>
+#include <stdexcept>
 
 namespace console {
-    LineParser::LineParser(console::Config& config) : _config(config) {}
+
+    LineParser::LineParser(console::Config& config) 
+    : _config(config) 
+    {
+    }
 
     bool LineParser::parse(int argc, char* argv[]) 
     {
-        try
-        {
-            // Если нет аргументов или только имя программы
+        try {
             if (argc <= 1) {
                 printHelp();
                 return false;
@@ -17,72 +21,55 @@ namespace console {
             bool hasPath = false;
 
             for (int i = 1; i < argc; ++i) {
-                std::string_view arg = argv[i];  
-                
-                if (arg == "--base" || arg == "-b") {
+                std::string_view arg = argv[i];
+
+                auto requireNext = [&](const std::string& flag) {
                     if (i + 1 >= argc) {
-                        std::cerr << "Error: --base requires a file path" << std::endl;
-                        printHelp();
-                        return false;
+                        throw std::runtime_error("Option '" + flag + "' requires a value");
                     }
-                    if (!_config.setPathHashes(argv[i + 1])) {
+                    return std::string_view(argv[++i]);
+                };
+
+                if (arg == "--base" || arg == "-b") {
+                    auto value = requireNext("--base");
+                    if (!_config.setPathHashes(value.data())) {
                         return false;
                     }
                     hasBase = true;
-                    ++i;
-                } 
+                }
                 else if (arg == "--log") {
-                    if (i + 1 >= argc) {
-                        std::cerr << "Error: --log requires a file path" << std::endl;
-                        printHelp();
+                    auto value = requireNext("--log");
+                    if (!_config.setPathReportLog(value.data())) {
                         return false;
                     }
-                    if (!_config.setPathReportLog(argv[i + 1])) {
-                        return false;
-                    }
-                    ++i;
-                } 
+                }
                 else if (arg == "--path" || arg == "-p") {
-                    if (i + 1 >= argc) {
-                        std::cerr << "Error: --path requires a directory path" << std::endl;
-                        printHelp();
-                        return false;
-                    }
-                    if (!_config.setPathScan(argv[i + 1])) {
+                    auto value = requireNext("--path");
+                    if (!_config.setPathScan(value.data())) {
                         return false;
                     }
                     hasPath = true;
-                    ++i;
-                } 
+                }
                 else if (arg == "--help" || arg == "-h") {
                     printHelp();
                     return false;
-                } 
+                }
                 else {
-                    std::cerr << "Error: Unknown argument '" << arg << "'" << std::endl;
-                    printHelp();
-                    return false;
+                    throw std::runtime_error("Unknown option: " + std::string(arg));
                 }
             }
 
-
             if (!hasBase) {
-                std::cerr << "Error: Missing required parameter --base" << std::endl;
-                printHelp();
-                return false;
+                throw std::runtime_error("Missing required option: --base");
             }
-
             if (!hasPath) {
-                std::cerr << "Error: Missing required parameter --path" << std::endl;
-                printHelp();
-                return false;
+                throw std::runtime_error("Missing required option: --path");
             }
 
             return true;
         }
-        catch(const std::exception& e)
-        {
-            std::cerr << "[ERROR]: " << e.what() << std::endl;
+        catch (const std::exception& e) {
+            std::cerr << "[ERROR] " << e.what() << "\n";
             printHelp();
             return false;
         }
@@ -91,7 +78,7 @@ namespace console {
     std::string_view LineParser::getNextArgument(int i, int argc, char* argv[])
     {
         if (i + 1 >= argc)
-            throw std::runtime_error("Incorrect arguments");
+            throw std::runtime_error("Missing value after " + std::string(argv[i]));
         return std::string_view(argv[++i]);
     }
 
@@ -101,18 +88,19 @@ namespace console {
 R"(Usage: scanner.exe [OPTIONS]
 
 Options:
-    -b, --base <path>     Set base hashes file (must be .csv) [REQUIRED]
-    --log <path>          Set log report file [OPTIONAL]
-    -p, --path <path>     Set scan directory path [REQUIRED]
-    -h, --help            Show this help message and exit
+      --log <path>      Path to log report file
+  -b, --base <path>     Path to base hashes file (.csv)
+  -p, --path <path>     Directory to scan
+  -h, --help            Show help
 
 Example:
-    scanner.exe --base base.csv --log report.log --path c:\folder
+  scanner.exe --base base.csv --log report.log --path C:/folder
 
 Notes:
-    All paths must be valid and accessible.
-    Base files must have '.csv' extension.
-    --base and --path are required parameters.
+  All paths must be valid and accessible.
+  Base file must have '.csv' extension.
+  --base and --path are required.
 )";
     }
+
 } // namespace console
