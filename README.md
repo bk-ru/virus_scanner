@@ -43,20 +43,16 @@ ac6204ffeb36d2320e52f1d551cfa370;Dropper
 
 ![Project Preview](docs/images/print.png)
 
-Если найдены угрозы, они также записываются в лог:
+Если найдены угрозы, они записываются в лог:
 
 ![Project Preview](docs/images/log.png)
 
 ## Требования / зависимости
 
 * **CMake**
-* **C++17** (проект настроен на C++17, можно поднять до C++20 при желании)
+* **C++17** (проект настроен на C++17, можно поднять до C++20)
 * **OpenSSL** (для MD5)
 * **gtest**
-
-Рекомендуемый менеджер пакетов: **vcpkg** (Windows / Linux / macOS).
-
----
 
 ## Рекомендованная установка зависимостей (vcpkg)
 
@@ -96,29 +92,13 @@ cmake --build build --config Release
 
 ---
 
-## Установка зависимостей вручную (альтернатива для Linux)
-
-```bash
-# Debian/Ubuntu
-sudo apt update
-sudo apt install build-essential cmake libssl-dev
-
-# GoogleTest: можно использовать пакет или собирать внутри CMake (FetchContent используется в проекте)
-sudo apt install libgtest-dev
-# Примечание: на некоторых дистрибутивах gtest нужно собирать вручную
-```
-
----
-
 ## Сборка проекта
 
-Примеры команд.
-
-### Linux / macOS (пример)
+### Linux / macOS
 
 ```bash
-git clone <repo>
-cd <repo>
+git clone https://github.com/bk-ru/virus_scanner.git
+cd virus_scanner
 cmake -S . -B build -DCMAKE_TOOLCHAIN_FILE=/path/to/vcpkg/scripts/buildsystems/vcpkg.cmake
 cmake --build build --config Release -j$(nproc)
 ```
@@ -126,8 +106,8 @@ cmake --build build --config Release -j$(nproc)
 ### Windows (Visual Studio)
 
 ```powershell
-git clone <repo>
-cd <repo>
+git clone https://github.com/bk-ru/virus_scanner.git
+cd virus_scanner
 cmake -S . -B build -G "Visual Studio 17 2022" -A x64 -DCMAKE_TOOLCHAIN_FILE=C:/vcpkg/scripts/buildsystems/vcpkg.cmake
 cmake --build build --config Release
 ```
