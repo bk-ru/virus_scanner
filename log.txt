@@ -1,0 +1,17 @@
+
+=== Scan started at Wed Sep 10 08:53:58 2025
+===================================
+
+=== Scan started at Wed Sep 10 08:55:53 2025
+===================================
+
+=== Scan started at Wed Sep 10 08:57:15 2025
+===================================
+
+=== Scan started at Wed Sep 10 09:03:36 2025
+===================================
+MALWARE DETECTED:
+  Path: C:/github/virus\test_virus.txt
+  Hash: d41d8cd98f00b204e9800998ecf8427e
+  Verdict: Test_virus
+---
