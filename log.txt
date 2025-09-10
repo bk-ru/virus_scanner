@@ -15,3 +15,51 @@ MALWARE DETECTED:
   Hash: d41d8cd98f00b204e9800998ecf8427e
   Verdict: Test_virus
 ---
+
+=== Scan started at Wed Sep 10 11:27:23 2025
+===================================
+MALWARE DETECTED:
+  Path: C:/github/virus\test_virus.txt
+  Hash: d41d8cd98f00b204e9800998ecf8427e
+  Verdict: Test_virus
+---
+
+=== Scan started at Wed Sep 10 11:27:26 2025
+===================================
+MALWARE DETECTED:
+  Path: C:/github/virus\test_virus.txt
+  Hash: d41d8cd98f00b204e9800998ecf8427e
+  Verdict: Test_virus
+---
+
+=== Scan started at Wed Sep 10 11:27:38 2025
+===================================
+MALWARE DETECTED:
+  Path: C:/github/virus\test_virus.txt
+  Hash: d41d8cd98f00b204e9800998ecf8427e
+  Verdict: Test_virus
+---
+
+=== Scan started at Wed Sep 10 11:30:04 2025
+===================================
+MALWARE DETECTED:
+  Path: C:/github/virus\test_virus.txt
+  Hash: d41d8cd98f00b204e9800998ecf8427e
+  Verdict: Test_virus
+---
+
+=== Scan started at Wed Sep 10 11:39:22 2025
+===================================
+MALWARE DETECTED:
+  Path: C:/github/virus\test_virus.txt
+  Hash: d41d8cd98f00b204e9800998ecf8427e
+  Verdict: Test_virus
+---
+
+=== Scan started at Wed Sep 10 11:39:33 2025
+===================================
+MALWARE DETECTED:
+  Path: C:/github/virus\test_virus.txt
+  Hash: d41d8cd98f00b204e9800998ecf8427e
+  Verdict: Test_virus
+---

@@ -177,7 +177,7 @@ void ScannerImpl::ProcessFile(const std::filesystem::path& filepath) {
 
 // Экспортируемые функции
 extern "C" SCANNER_API Scanner::IScanner* CreateScanner() {
-    std::cerr << "CreateScanner() called\n";
+    // std::cerr << "CreateScanner() called\n";
     return new Scanner::ScannerImpl();
 }
 

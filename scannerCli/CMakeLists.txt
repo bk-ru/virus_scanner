@@ -1,22 +1,22 @@
-add_executable(scanner_cli
-    main.cpp
+# Исполняемый файл консольного интерфейса
+set(CLI_SOURCES
     config.cpp
+    config.h
     lineParser.cpp
+    lineParser.h
+    main.cpp
 )
 
-target_include_directories(scanner_cli
-    PRIVATE 
-        ${CMAKE_CURRENT_SOURCE_DIR}/include
-        ${CMAKE_CURRENT_SOURCE_DIR}/../libscanner/include
-)
+# Создание исполняемого файла
+add_executable(scanner_exe ${CLI_SOURCES})
 
-target_link_libraries(scanner_cli
-    PRIVATE 
-        scanner
-)
+# Переименование выходного файла в scanner
+set_target_properties(scanner_exe PROPERTIES OUTPUT_NAME "scanner")
 
-target_compile_features(scanner_cli PRIVATE cxx_std_20)
+# Связываем с DLL
+target_link_libraries(scanner_exe PRIVATE scanner)
 
-install(TARGETS scanner_cli
-    RUNTIME DESTINATION ${CMAKE_INSTALL_BINDIR}
+# Включаем заголовочные файлы из DLL
+target_include_directories(scanner_exe PRIVATE 
+    ${CMAKE_CURRENT_SOURCE_DIR}/../scanner
 )
