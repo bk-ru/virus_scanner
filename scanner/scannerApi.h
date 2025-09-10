@@ -1,5 +1,4 @@
-#ifndef SCANNER_API_H
-#define SCANNER_API_H
+#pragma once
 
 #ifdef _WIN32
     #ifdef SCANNER_DLL_EXPORTS
@@ -58,6 +57,3 @@ public:
 
 extern "C" SCANNER_API Scanner::IScanner* CreateScanner();
 extern "C" SCANNER_API void DestroyScanner(Scanner::IScanner* scanner);
-
-
-#endif // SCANNER_API_H

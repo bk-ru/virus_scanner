@@ -115,4 +115,4 @@ Notes:
     --base and --path are required parameters.
 )";
     }
-}
+} // namespace console

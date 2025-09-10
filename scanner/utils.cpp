@@ -9,8 +9,7 @@ bool IsFileReadable(const std::filesystem::path& path) {
 }
 
 size_t GetHardwareConcurrency() {
-    size_t cores = std::thread::hardware_concurrency();
-    return cores > 0 ? cores : 4;
+    return std::thread::hardware_concurrency();
 }
 
 std::string ToLower(const std::string& str) {
@@ -24,13 +23,11 @@ std::string Trim(const std::string& str) {
     auto start = str.begin();
     auto end = str.end();
     
-    while (start != end && std::isspace(*start)) {
+    while (start != end && std::isspace(*start))
         ++start;
-    }
     
-    while (start != end && std::isspace(*(end - 1))) {
+    while (start != end && std::isspace(*(end - 1)))
         --end;
-    }
     
     return std::string(start, end);
 }

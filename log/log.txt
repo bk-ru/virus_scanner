@@ -1,0 +1,1808 @@
+
+=== Scan started at Wed Sep 10 14:11:08 2025
+===================================
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_1\dir_1\dir_1\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_1\dir_1\dir_2\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_1\dir_1\dir_1\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_1\dir_1\dir_1\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_1\dir_1\dir_2\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_1\dir_1\dir_2\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_1\dir_1\dir_3\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_1\dir_1\dir_3\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_1\dir_1\dir_3\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_1\dir_1\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_1\dir_1\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_1\dir_1\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_1\dir_2\dir_1\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_1\dir_2\dir_1\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_1\dir_2\dir_1\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_1\dir_2\dir_2\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_1\dir_2\dir_2\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_1\dir_2\dir_2\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_1\dir_2\dir_3\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_1\dir_2\dir_3\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_1\dir_2\dir_3\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_1\dir_2\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_1\dir_2\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_1\dir_2\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_1\dir_3\dir_1\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_1\dir_3\dir_1\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_1\dir_3\dir_1\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_1\dir_3\dir_2\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_1\dir_3\dir_2\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_1\dir_3\dir_3\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_1\dir_3\dir_2\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_1\dir_3\dir_3\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_1\dir_3\dir_3\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_1\dir_3\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_1\dir_3\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_1\dir_3\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_1\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_1\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_1\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_2\dir_1\dir_1\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_2\dir_1\dir_1\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_2\dir_1\dir_1\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_2\dir_1\dir_2\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_2\dir_1\dir_2\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_2\dir_1\dir_2\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_2\dir_1\dir_3\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_2\dir_1\dir_3\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_2\dir_1\dir_3\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_2\dir_1\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_2\dir_1\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_2\dir_1\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_2\dir_2\dir_1\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_2\dir_2\dir_1\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_2\dir_2\dir_1\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_2\dir_2\dir_2\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_2\dir_2\dir_2\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_2\dir_2\dir_3\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_2\dir_2\dir_2\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_2\dir_2\dir_3\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_2\dir_2\dir_3\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_2\dir_2\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_2\dir_2\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_2\dir_2\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_2\dir_3\dir_1\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_2\dir_3\dir_1\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_2\dir_3\dir_1\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_2\dir_3\dir_2\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_2\dir_3\dir_2\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_2\dir_3\dir_2\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_2\dir_3\dir_3\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_2\dir_3\dir_3\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_2\dir_3\dir_3\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_2\dir_3\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_2\dir_3\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_2\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_2\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_2\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_3\dir_1\dir_1\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_3\dir_1\dir_1\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_3\dir_1\dir_1\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_3\dir_1\dir_2\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_2\dir_3\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_3\dir_1\dir_2\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_3\dir_1\dir_2\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_3\dir_1\dir_3\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_3\dir_1\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_3\dir_1\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_3\dir_1\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_3\dir_1\dir_3\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_3\dir_1\dir_3\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_3\dir_2\dir_1\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_3\dir_2\dir_1\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_3\dir_2\dir_1\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_3\dir_2\dir_2\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_3\dir_2\dir_2\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_3\dir_2\dir_2\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_3\dir_2\dir_3\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_3\dir_2\dir_3\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_3\dir_2\dir_3\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_3\dir_2\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_3\dir_2\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_3\dir_2\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_3\dir_3\dir_1\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_3\dir_3\dir_1\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_3\dir_3\dir_2\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_3\dir_3\dir_1\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_3\dir_3\dir_2\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_3\dir_3\dir_2\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_3\dir_3\dir_3\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_3\dir_3\dir_3\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_3\dir_3\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_3\dir_3\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_3\dir_3\dir_3\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_3\dir_3\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_3\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_3\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_3\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_1\dir_1\dir_1\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_1\dir_1\dir_1\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_1\dir_1\dir_1\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_1\dir_1\dir_2\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_1\dir_1\dir_2\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_1\dir_1\dir_2\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_1\dir_1\dir_3\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_1\dir_1\dir_3\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_1\dir_1\dir_3\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_1\dir_1\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_1\dir_1\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_1\dir_1\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_1\dir_2\dir_1\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_1\dir_2\dir_1\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_1\dir_2\dir_1\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_1\dir_2\dir_2\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_1\dir_2\dir_2\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_1\dir_2\dir_2\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_1\dir_2\dir_3\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_1\dir_2\dir_3\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_1\dir_2\dir_3\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_1\dir_2\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_1\dir_2\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_1\dir_2\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_1\dir_3\dir_1\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_1\dir_3\dir_1\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_1\dir_3\dir_1\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_1\dir_3\dir_2\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_1\dir_3\dir_2\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_1\dir_3\dir_3\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_1\dir_3\dir_3\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_1\dir_3\dir_3\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_1\dir_3\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_1\dir_3\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_1\dir_3\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_1\dir_3\dir_2\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_1\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_1\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_1\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_2\dir_1\dir_1\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_2\dir_1\dir_1\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_2\dir_1\dir_1\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_2\dir_1\dir_2\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_2\dir_1\dir_2\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_2\dir_1\dir_2\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_2\dir_1\dir_3\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_2\dir_1\dir_3\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_2\dir_1\dir_3\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_2\dir_1\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_2\dir_1\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_2\dir_1\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_2\dir_2\dir_1\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_2\dir_2\dir_1\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_2\dir_2\dir_2\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_2\dir_2\dir_1\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_2\dir_2\dir_2\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_2\dir_2\dir_2\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_2\dir_2\dir_3\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_2\dir_2\dir_3\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_2\dir_2\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_2\dir_2\dir_3\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_2\dir_2\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_2\dir_2\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_2\dir_3\dir_1\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_2\dir_3\dir_1\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_2\dir_3\dir_1\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_2\dir_3\dir_2\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_2\dir_3\dir_2\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_2\dir_3\dir_2\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_2\dir_3\dir_3\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_2\dir_3\dir_3\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_2\dir_3\dir_3\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_2\dir_3\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_2\dir_3\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_2\dir_3\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_2\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_2\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_2\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_3\dir_1\dir_1\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_3\dir_1\dir_1\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_3\dir_1\dir_1\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_3\dir_1\dir_2\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_3\dir_1\dir_2\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_3\dir_1\dir_2\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_3\dir_1\dir_3\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_3\dir_1\dir_3\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_3\dir_1\dir_3\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_3\dir_1\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_3\dir_1\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_3\dir_1\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_3\dir_2\dir_1\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_3\dir_2\dir_1\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_3\dir_2\dir_2\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_3\dir_2\dir_2\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_3\dir_2\dir_2\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_3\dir_2\dir_3\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_3\dir_2\dir_3\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_3\dir_2\dir_1\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_3\dir_2\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_3\dir_2\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_3\dir_2\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_3\dir_2\dir_3\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_3\dir_3\dir_1\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_3\dir_3\dir_1\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_3\dir_3\dir_1\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_3\dir_3\dir_2\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_3\dir_3\dir_2\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_3\dir_3\dir_3\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_3\dir_3\dir_2\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_3\dir_3\dir_3\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_3\dir_3\dir_3\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_3\dir_3\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_3\dir_3\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_3\dir_3\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_3\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_3\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\dir_3\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_4\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_1\dir_1\dir_1\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_1\dir_1\dir_1\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_1\dir_1\dir_1\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_1\dir_1\dir_2\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_1\dir_1\dir_2\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_1\dir_1\dir_3\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_1\dir_1\dir_3\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_1\dir_1\dir_3\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_1\dir_1\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_1\dir_1\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_1\dir_1\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_1\dir_2\dir_1\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_1\dir_2\dir_1\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_1\dir_2\dir_1\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_1\dir_2\dir_2\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_1\dir_1\dir_2\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_1\dir_2\dir_2\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_1\dir_2\dir_2\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_1\dir_2\dir_3\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_1\dir_2\dir_3\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_1\dir_2\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_1\dir_2\dir_3\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_1\dir_2\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_1\dir_2\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_1\dir_3\dir_1\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_1\dir_3\dir_1\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_1\dir_3\dir_2\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_1\dir_3\dir_2\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_1\dir_3\dir_2\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_1\dir_3\dir_1\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_1\dir_3\dir_3\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_1\dir_3\dir_3\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_1\dir_3\dir_3\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_1\dir_3\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_1\dir_3\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_1\dir_3\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_1\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_1\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_1\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_2\dir_1\dir_1\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_2\dir_1\dir_1\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_2\dir_1\dir_2\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_2\dir_1\dir_1\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_2\dir_1\dir_2\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_2\dir_1\dir_2\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_2\dir_1\dir_3\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_2\dir_1\dir_3\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_2\dir_1\dir_3\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_2\dir_1\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_2\dir_1\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_2\dir_1\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_2\dir_2\dir_1\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_2\dir_2\dir_1\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_2\dir_2\dir_1\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_2\dir_2\dir_2\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_2\dir_2\dir_2\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_2\dir_2\dir_3\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_2\dir_2\dir_2\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_2\dir_2\dir_3\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_2\dir_2\dir_3\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_2\dir_2\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_2\dir_2\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_2\dir_3\dir_1\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_2\dir_3\dir_1\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_2\dir_2\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_2\dir_3\dir_2\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_2\dir_3\dir_2\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_2\dir_3\dir_1\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_2\dir_3\dir_3\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_2\dir_3\dir_3\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_2\dir_3\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_2\dir_3\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_2\dir_3\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_2\dir_3\dir_3\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_2\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_2\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_2\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_3\dir_1\dir_1\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_3\dir_1\dir_2\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_3\dir_1\dir_1\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_3\dir_1\dir_1\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_3\dir_1\dir_2\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_3\dir_1\dir_2\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_2\dir_3\dir_2\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_3\dir_1\dir_3\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_3\dir_1\dir_3\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_3\dir_1\dir_3\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_3\dir_1\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_3\dir_1\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_3\dir_2\dir_1\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_3\dir_2\dir_1\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_3\dir_2\dir_1\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_3\dir_2\dir_2\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_3\dir_2\dir_2\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_3\dir_2\dir_3\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_3\dir_2\dir_3\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_3\dir_1\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_3\dir_2\dir_2\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_3\dir_2\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_3\dir_2\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_3\dir_2\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_3\dir_3\dir_1\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_3\dir_3\dir_1\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_3\dir_2\dir_3\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_3\dir_3\dir_1\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_3\dir_3\dir_2\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_3\dir_3\dir_2\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_3\dir_3\dir_2\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_3\dir_3\dir_3\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_3\dir_3\dir_3\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_3\dir_3\dir_3\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_3\dir_3\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_3\dir_3\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_3\dir_3\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_3\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_3\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\dir_3\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\dir_5\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\file_1.txt
+  Hash: 9111f257e6d8a21a5251b5065afa0afb
+  Verdict: Dropper
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\file_2.txt
+  Hash: c4837eb5d421d5e3c4c869ac5ad9f9a4
+  Verdict: Downloader
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_tree_1\file_3.txt
+  Hash: 7cc1970aa3d3f213b91a74770865ecfe
+  Verdict: Test_virus
+---
+MALWARE DETECTED:
+  Path: C:/github/virus\test_virus.txt
+  Hash: d41d8cd98f00b204e9800998ecf8427e
+  Verdict: Exploit
+---

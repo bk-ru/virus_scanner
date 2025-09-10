@@ -11,16 +11,18 @@ std::string MD5Calculator::CalculateFile(const std::filesystem::path& filepath) 
     MD5_CTX md5Context;
     MD5_Init(&md5Context);
     
-    const size_t bufferSize = 1024 * 1024; // 1MB buffer для больших файлов
+    const auto fileSize = std::filesystem::file_size(filepath);
+    const size_t bufferSize = std::min(
+        static_cast<size_t>(1024 * 1024), // 1MB
+        static_cast<size_t>(fileSize > 0 ? fileSize : 1024)
+    );
     std::vector<char> buffer(bufferSize);
     
-    while (file.read(buffer.data(), bufferSize) || file.gcount() > 0) {
+    while (file.read(buffer.data(), bufferSize) || file.gcount() > 0)
         MD5_Update(&md5Context, buffer.data(), static_cast<size_t>(file.gcount()));
-    }
     
     unsigned char result[MD5_DIGEST_LENGTH];
-    MD5_Final(result, &md5Context);
-    
+    MD5_Final(result, &md5Context);    
     return BytesToHex(result, MD5_DIGEST_LENGTH);
 }
 

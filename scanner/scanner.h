@@ -21,12 +21,12 @@ class Logger;
 class MD5Calculator;
 class ThreadPool;
 
-
 class ScannerImpl : public IScanner {
 public:
     ScannerImpl();
     ~ScannerImpl() override;
     
+public:
     ScanResult Scan(const ScanSettings& settings) override;
     ScanResult ScanWithProgress(const ScanSettings& settings, ProgressCallback callback) override;
     void Stop() override;
@@ -37,25 +37,21 @@ private:
     void ProcessFile(const std::filesystem::path& filepath);
     void CollectFiles(const std::filesystem::path& root, std::vector<std::filesystem::path>& files);
     
-    // Состояние сканирования
+private:
     std::atomic<bool> isScanning_;
     std::atomic<bool> stopRequested_;
-    
-    // Статистика
+
     std::atomic<size_t> totalFiles_;
     std::atomic<size_t> malwareFiles_;
     std::atomic<size_t> errors_;
     
-    // Компоненты
     std::unique_ptr<HashDatabase> database_;
     std::unique_ptr<Logger> logger_;
     std::unique_ptr<ThreadPool> threadPool_;
-    
-    // Результаты
+
     std::vector<MalwareInfo> detectedMalware_;
     std::mutex resultMutex_;
-    
-    // Callback прогресса
+
     ProgressCallback progressCallback_;
     std::mutex progressMutex_;
     
