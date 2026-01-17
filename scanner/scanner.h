@@ -33,9 +33,10 @@ public:
     bool IsScanning() const override;
 
 private:
-    void ScanDirectory(const std::filesystem::path& path);
-    void ProcessFile(const std::filesystem::path& filepath);
+    void InitializeDependencies(const ScanSettings& settings);
+    void ExecuteScan(const ScanSettings& settings);
     void CollectFiles(const std::filesystem::path& root, std::vector<std::filesystem::path>& files);
+    void ProcessFile(const std::filesystem::path& filepath);
     
 private:
     std::atomic<bool> isScanning_;

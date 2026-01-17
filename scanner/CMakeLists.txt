@@ -8,6 +8,9 @@ set(SCANNER_SOURCES
     scanner.cpp
     scanner.h
     scannerApi.h
+    scannerConstants.h
+    settingsValidator.cpp
+    settingsValidator.h
     threadPool.cpp
     threadPool.h
     utils.cpp

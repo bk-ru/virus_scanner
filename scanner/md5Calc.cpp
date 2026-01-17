@@ -1,8 +1,17 @@
 #include "md5Calc.h"
+#include "scannerConstants.h"
 
 namespace Scanner {
 
 std::string MD5Calculator::CalculateFile(const std::filesystem::path& filepath) {
+    const auto fileSize = std::filesystem::file_size(filepath);
+    
+    // Check file size limit
+    if (fileSize > Constants::MAX_FILE_SIZE) {
+        throw std::runtime_error("File too large: " + filepath.string() + 
+                                 " (" + std::to_string(fileSize) + " bytes)");
+    }
+    
     std::ifstream file(filepath, std::ios::binary);
     if (!file.is_open()) {
         throw std::runtime_error("Cannot open file: " + filepath.string());
@@ -11,15 +20,11 @@ std::string MD5Calculator::CalculateFile(const std::filesystem::path& filepath) 
     MD5_CTX md5Context;
     MD5_Init(&md5Context);
     
-    const auto fileSize = std::filesystem::file_size(filepath);
-    const size_t bufferSize = std::min(
-        static_cast<size_t>(1024 * 1024), // 1MB
-        static_cast<size_t>(fileSize > 0 ? fileSize : 1024)
-    );
-    std::vector<char> buffer(bufferSize);
+    std::vector<char> buffer(Constants::HASH_BUFFER_SIZE);
     
-    while (file.read(buffer.data(), bufferSize) || file.gcount() > 0)
+    while (file.read(buffer.data(), Constants::HASH_BUFFER_SIZE) || file.gcount() > 0) {
         MD5_Update(&md5Context, buffer.data(), static_cast<size_t>(file.gcount()));
+    }
     
     unsigned char result[MD5_DIGEST_LENGTH];
     MD5_Final(result, &md5Context);    

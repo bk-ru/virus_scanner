@@ -32,20 +32,20 @@ namespace console {
 
                 if (arg == "--base" || arg == "-b") {
                     auto value = requireNext("--base");
-                    if (!_config.setPathHashes(value.data())) {
+                    if (!_config.SetHashDatabasePath(value)) {
                         return false;
                     }
                     hasBase = true;
                 }
                 else if (arg == "--log") {
                     auto value = requireNext("--log");
-                    if (!_config.setPathReportLog(value.data())) {
+                    if (!_config.SetLogPath(value)) {
                         return false;
                     }
                 }
                 else if (arg == "--path" || arg == "-p") {
                     auto value = requireNext("--path");
-                    if (!_config.setPathScan(value.data())) {
+                    if (!_config.SetScanPath(value)) {
                         return false;
                     }
                     hasPath = true;

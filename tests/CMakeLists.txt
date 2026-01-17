@@ -20,6 +20,7 @@ include_directories(
 set(TEST_SOURCES
     testMain.cpp
     tests.cpp
+    unitTests.cpp
 )
 
 add_executable(unit_tests ${TEST_SOURCES})

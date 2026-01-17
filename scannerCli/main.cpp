@@ -23,9 +23,9 @@ int main(int argc, char* argv[])
         }
 
         Scanner::ScanSettings settings;
-        settings.rootPath = std::string(config.getPathScan());
-        settings.databasePath = std::string(config.getPathHashes());
-        settings.logPath = std::string(config.getPathReportLog());
+        settings.rootPath = config.GetScanPath();
+        settings.databasePath = config.GetHashDatabasePath();
+        settings.logPath = config.GetLogPath();
         settings.threadCount = std::thread::hardware_concurrency();
 
         std::cout << "Starting malware scan..." << std::endl;

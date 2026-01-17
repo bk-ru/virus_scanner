@@ -15,28 +15,25 @@ namespace console
         ~Config() = default;
 
     public:
-        bool setPathHashes(std::string_view pathHashes);
-        bool setPathReportLog(std::string_view pathReportLog);
-        bool setPathScan(std::string_view pathScan);
+        bool SetHashDatabasePath(std::string_view path);
+        bool SetLogPath(std::string_view path);
+        bool SetScanPath(std::string_view path);
 
     private:
-        bool checkFileExtension(std::string_view path, std::string_view extension);
-        inline bool validateDirectory(std::string_view path) const;
-        inline bool validateFile(std::string_view path) const;
-
+        bool CheckFileExtension(std::string_view path, std::string_view extension) const;
+        bool ValidateDirectory(std::string_view path) const;
+        bool ValidateFile(std::string_view path) const;
+        void PrintDebug(std::string_view prefix, std::string_view value = {}) const;
+    
     public:
-        std::string_view getPathHashes() const noexcept;
-        std::string_view getPathReportLog() const noexcept;
-        std::string_view getPathScan() const noexcept;
-
-    private:
-        void printDebug(std::string_view prefix, std::string_view value = {});
+        const std::string& GetHashDatabasePath() const noexcept;
+        const std::string& GetLogPath() const noexcept;
+        const std::string& GetScanPath() const noexcept;
     
     private:
-        std::string_view _pathHashes;
-        std::string_view _pathReportLog;
-        std::string_view _pathScan;
-
-        bool _debug;
+        std::string path_hashes_;
+        std::string path_report_log_;
+        std::string path_scan_;
+        bool debug_;
     };
 } // namespace console

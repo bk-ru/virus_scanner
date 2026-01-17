@@ -2,67 +2,63 @@
 
 namespace console
 {
-Config::Config(bool debug) : _debug(debug) {}
+Config::Config(bool debug) : debug_(debug) {}
 
-bool Config::setPathHashes(std::string_view pathHashes)
+bool Config::SetHashDatabasePath(std::string_view path)
 {
-    if (!checkFileExtension(pathHashes, ".csv")) {
-        std::cerr << "[ERROR]: " << pathHashes 
+    if (!CheckFileExtension(path, ".csv")) {
+        std::cerr << "[ERROR]: " << path 
                     << " - The file extension must be .csv" << std::endl;
         return false;
     }
 
-    if (!validateFile(pathHashes)) {
-        std::cerr << "[ERROR]: " << pathHashes 
+    if (!ValidateFile(path)) {
+        std::cerr << "[ERROR]: " << path 
                     << " - File does not exist or is not accessible" << std::endl;
         return false;
     }
 
-    printDebug("setPathHashes: ", pathHashes);
-    _pathHashes = pathHashes;
+    PrintDebug("SetHashDatabasePath: ", path);
+    path_hashes_ = path;
     return true;
 }
 
-bool Config::setPathReportLog(std::string_view pathReportLog) 
+bool Config::SetLogPath(std::string_view path) 
 {
-    fs::path logPath(pathReportLog);
+    fs::path logPath(path);
     if (logPath.has_parent_path() && !fs::exists(logPath.parent_path())) {
         std::cerr << "[ERROR]: Directory for log file does not exist: " 
                     << logPath.parent_path() << std::endl;
         return false;
     }
 
-    printDebug("setPathReportLog: ", pathReportLog);
-    _pathReportLog = pathReportLog;
+    PrintDebug("SetLogPath: ", path);
+    path_report_log_ = path;
     return true;
 }
 
-bool Config::setPathScan(std::string_view pathScan) 
+bool Config::SetScanPath(std::string_view path) 
 {
-    if (!validateDirectory(pathScan)) {
-        std::cerr << "[ERROR]: " << pathScan 
+    if (!ValidateDirectory(path)) {
+        std::cerr << "[ERROR]: " << path 
                     << " - Directory does not exist or is not accessible" << std::endl;
         return false;
     }
 
-    printDebug("setPathScan: ", pathScan);
-    _pathScan = pathScan;
+    PrintDebug("SetScanPath: ", path);
+    path_scan_ = path;
     return true;
 }
 
-bool Config::checkFileExtension(std::string_view path, std::string_view extension)
+bool Config::CheckFileExtension(std::string_view path, std::string_view extension) const
 {
-    fs::path filePath = path;
-    bool flag = false;
-    if (filePath.extension() == extension)
-        flag = true;
-
-    return flag;
+    fs::path filePath(path);
+    return filePath.extension() == extension;
 }
 
-void Config::printDebug(std::string_view prefix, std::string_view value)
+void Config::PrintDebug(std::string_view prefix, std::string_view value) const
 {
-    if (_debug) {
+    if (debug_) {
         std::cout << "[DEBUG]: " << prefix;
         if (!value.empty()) 
             std::cout << value;
@@ -70,20 +66,20 @@ void Config::printDebug(std::string_view prefix, std::string_view value)
     }
 }
 
-inline bool Config::validateDirectory(std::string_view path) const 
+bool Config::ValidateDirectory(std::string_view path) const 
 {
     fs::path p(path);
     return fs::exists(p) && fs::is_directory(p);
 }
 
-inline bool Config::validateFile(std::string_view path) const 
+bool Config::ValidateFile(std::string_view path) const 
 {
     fs::path p(path);
     return fs::exists(p) && fs::is_regular_file(p);
 }
 
-std::string_view Config::getPathHashes() const noexcept  { return _pathHashes; }
-std::string_view Config::getPathReportLog() const noexcept  { return _pathReportLog; }
-std::string_view Config::getPathScan() const noexcept  { return _pathScan; }
+const std::string& Config::GetHashDatabasePath() const noexcept { return path_hashes_; }
+const std::string& Config::GetLogPath() const noexcept { return path_report_log_; }
+const std::string& Config::GetScanPath() const noexcept { return path_scan_; }
 
 } // namespace console
